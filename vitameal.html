@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VitaMeal - BMI Calculator</title>
+  <link rel="stylesheet" href="vita.css" />
+</head>
+<body>
+
+  <div class="header">VitaMeal</div>
+
+  <header class="hed">
+    <a href="main.html">Main Page</a>
+    <a href="about.html">About Us</a>
+    <a href="subscribe.html">Subscribe</a>
+    <a href="vitameal.html" class="active">Vita Meal</a>
+  </header>
+
+  <main class="feature-page">
+    <h1 class="page-title">BMI & Kalori Balita</h1>
+
+    <div class="calculator-container">
+      <div class="calculator-box">
+        <label for="age">Usia (tahun)</label>
+        <input type="number" id="age" placeholder="Contoh: 3">
+
+        <label for="bb">Berat Badan (kg)</label>
+        <input type="number" id="bb" placeholder="Contoh: 14">
+
+        <label for="tb">Tinggi Badan (cm)</label>
+        <input type="number" id="tb" placeholder="Contoh: 95">
+
+        <button onclick="sub()">Hitung Sekarang</button>
+      </div>
+
+      <div class="result-section">
+        <div class="result-card">
+          <p id="stat"></p>
+        </div>
+        <div class="result-card">
+          <p id="needs"></p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="code.js"></script>
+</body>
+</html>
