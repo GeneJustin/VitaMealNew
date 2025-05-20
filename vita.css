@@ -238,7 +238,8 @@ body {
 
 .feature-cards {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+
     flex-wrap: wrap;
     gap: 20px;
 }
@@ -270,11 +271,11 @@ body {
     color: #444;
 }
 
-/* Responsive adjustments */
 @media (max-width: 768px) {
     .feature-cards {
         flex-direction: column;
         align-items: center;
+        justify-content: center;
     }
 
     .feature-card {
@@ -359,7 +360,6 @@ body {
   color: #1f2a2a;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
   .calculator-container {
     flex-direction: column;
@@ -367,3 +367,6 @@ body {
   }
 }
 
+.hidden{
+  display: none;
+}
