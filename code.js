@@ -26,11 +26,6 @@ function sub() {
 
     const kebutuhanKalori = Math.round(bbi * kaloriPerKg);
 
-    if(isNaN(tb) || isNaN(bb)){
-        res.textContent = "Input tidak lengkap";
-        needs.textContent = "Silahkan Masukkan Ulang";
-        return;
-    }
 
     res.textContent = `Berat Badan Ideal Anak Balita usia ${age} tahun, dengan tinggi ${tb} cm adalah ${bbi} kg.`;
     needs.textContent = `Kebutuhan kalori harian ideal untuk anak anda : ${kebutuhanKalori} kkal.`;
