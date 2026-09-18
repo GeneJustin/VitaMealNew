@@ -22,7 +22,7 @@ body {
 }
 
 .hed {
-  background-color: #1f2a2acc; /* sedikit transparan */
+  background-color: #1f2a2acc;
   height: 70px;
   font-size: 20px;
   display: flex;
@@ -127,29 +127,48 @@ body {
   box-shadow: 0 8px 20px rgba(31, 42, 42, 0.1);
   padding: 40px 30px;
   width: 320px;
-  min-height: 420px;
+  height: 500px;
   box-sizing: border-box;
   text-align: center;
   color: #1f2a2a;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   cursor: pointer;
+
   display: flex;
   flex-direction: column;
 }
 
 .subscribe h1 {
   font-size: 28px;
-  margin-bottom: 15px;
+  margin: 0 0 15px 0;
   font-weight: 700;
+}
+
+.subscribe h2 {
+  font-size: 32px;
+  margin: 15px 0;
+}
+
+.subscribe h2 span {
+  font-size: 16px;
+  font-weight: normal;
 }
 
 .subscribe p {
   font-size: 16px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   color: #555;
 }
 
+.subscribe ul {
+  text-align: left;
+  padding-left: 25px;
+  margin-top: 0;
+  line-height: 2;
+}
+
 .subscribe button {
+  margin-top: auto;
   padding: 12px 25px;
   background-color: #72e5ff;
   color: #1f2a2a;
@@ -158,29 +177,12 @@ body {
   border: none;
   border-radius: 30px;
   cursor: pointer;
-  transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .subscribe button:hover {
   background-color: #1f2a2a;
   color: #72e5ff;
   box-shadow: 0 0 12px #72e5ff;
-}
-
-.subscribe ul {
-    text-align: left;
-    padding-left: 25px;
-    line-height: 2;
-}
-
-.subscribe h2 {
-    font-size: 32px;
-    margin: 15px 0;
-}
-
-.subscribe h2 span {
-    font-size: 16px;
-    font-weight: normal;
 }
 
 .subscribe:hover {
