@@ -166,6 +166,22 @@ body {
   box-shadow: 0 0 12px #72e5ff;
 }
 
+.subscribe ul {
+    text-align: left;
+    padding-left: 25px;
+    line-height: 2;
+}
+
+.subscribe h2 {
+    font-size: 32px;
+    margin: 15px 0;
+}
+
+.subscribe h2 span {
+    font-size: 16px;
+    font-weight: normal;
+}
+
 .subscribe:hover {
   transform: translateY(-8px);
   box-shadow: 0 12px 30px rgba(31, 42, 42, 0.2);
