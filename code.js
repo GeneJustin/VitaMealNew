@@ -9,7 +9,7 @@ function sub() {
     let kaloriPerKg;
 
     if (age <= 1) {
-        kaloriPerKg = 110; // rata-rata dari 90–120
+        kaloriPerKg = 110; 
     } else if (age <= 3) {
         kaloriPerKg = 100;
     } else if (age <= 5) {
