@@ -127,13 +127,14 @@ body {
   box-shadow: 0 8px 20px rgba(31, 42, 42, 0.1);
   padding: 40px 30px;
   width: 320px;
+  min-height: 420px;
+  box-sizing: border-box;
   text-align: center;
   color: #1f2a2a;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   cursor: pointer;
   display: flex;
   flex-direction: column;
-  justify-content: center;
 }
 
 .subscribe h1 {
